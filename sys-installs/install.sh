@@ -35,7 +35,7 @@ apt install -y "$SOFTWARE"
 
 # Verify installation
 if command -v "$SOFTWARE" &> /dev/null; then
-    echo "Installation complete"
+    echo "Installation complete. Try running the software with "$SOFTWARE""
 else
     echo "Installation failed. Please see logs for errors."
     exit 1
